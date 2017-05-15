@@ -5,10 +5,10 @@
    控件在control目录下
 
 ### Pagination(分页控件)
-    使用方式：
+
+   使用方式：
+   把pagination.php复制到app/control/目录下面，然后在视图中直接调用
     
-    把pagination.php复制到app/control/目录下面，然后在视图中直接调用
-    
-   ‘’‘php
+```php
    <?php $this->_control('pagination', 'my-pagination', array('pagination' => $pagination)); ?>
-   '''
+```
