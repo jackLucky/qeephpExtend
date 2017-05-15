@@ -7,6 +7,7 @@
 ### Pagination(分页控件)
 
    使用方式：
+   
    把pagination.php复制到app/control/目录下面，然后在视图中直接调用
     
 ```php
