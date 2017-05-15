@@ -8,7 +8,7 @@
 
    使用方式：
    
-   把pagination.php复制到app/control/目录下面，style.css中的Css代码复制到public style.css中，然后在视图中直接调用:
+   把pagination.php复制到app/control/目录下面，style.css中的Css代码复制到public /style.css中，然后在视图中直接调用:
     
 ```php
    <?php $this->_control('pagination', 'my-pagination', array('pagination' => $pagination)); ?>
